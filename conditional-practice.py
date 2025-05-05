@@ -1,9 +1,4 @@
-# print("Hello")
-
-# myList = ["Apple", "Mango", "Banana", "Strawberry"]
-
-# for fruit in myList: 
-#     print(fruit , end="-")
+# Conditional Practice
 
 # age centralization 
 
@@ -39,5 +34,15 @@
 #   print("Your ticket price is: ", price)
 
 
+# pet food recomendation
+# pet = input("Your Pet is dog or cat: ").lower()  # Convert to lowercase for case-insensitive check
+# pet_age = input("Enter Your pet age: ")
+# pet_age_int = int(pet_age)
 
-    
+# if pet in ["dog", "cat"]:  # Check if pet is either dog or cat
+#     if pet_age_int < 2:
+#         print("Your pet should eat puppy food only")
+#     else: 
+#         print("Your pet can eat adult food")
+# else:
+#     print("Please enter a valid value (dog or cat)")         
